@@ -1,4 +1,5 @@
 export class AccountData {
+    id:number;
     firstName:string;
     lastName:string;
     jmbg:number;

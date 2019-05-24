@@ -7,6 +7,7 @@ import {RegisterStudentComponent} from './register/register-student/register-stu
 import {RegisterTeacherComponent} from './register/register-teacher/register-teacher.component'
 import {AccountDataComponent} from './account-data/account-data.component'
 import {AddressComponent} from './address/address.component'
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'register-student', component: RegisterStudentComponent },
   { path: 'register-teacher', component: RegisterTeacherComponent },
   { path: 'account-data',component: AccountDataComponent},
-  { path: 'address',component: AddressComponent}
+  { path: 'address',component: AddressComponent},
+  {path: 'login',component: LoginComponent}
 
 ];
 

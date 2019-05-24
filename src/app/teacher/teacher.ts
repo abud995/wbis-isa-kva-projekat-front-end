@@ -1,13 +1,21 @@
+import {Calling} from './calling'
+import {Address} from '../address/address'
+import {AccountData} from '../account-data/account-data'
+import {Faculty} from '../faculty/faculty'
+import {University} from '../university/university'
+import {StudyProgram} from '../study-program/study-program'
+import {CourseTeaching} from '../course/course-teaching'
 
 export class Teacher {
-    firstName: string;
-    lastName: string;
-    picture: string;
-    jmbg: number;
-    email: string;
-    username: string;
-    password: string;
-    address: string;
-    studentYears: [];  //bice studentYears: studentYears[] kad se doda studentYears app i klasa
-    courseAttendings: []; // isto kao za studentYears
+
+    id: number;
+    biography: string;
+    accountData: AccountData;
+    address: Address;
+    callings: Calling[];
+    faculties: Faculty[];
+    universities: University[];
+    studyPrograms: StudyProgram[];
+    courseTeachings: CourseTeaching[];
+
 }

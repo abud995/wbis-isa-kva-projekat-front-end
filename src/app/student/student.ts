@@ -1,13 +1,14 @@
+import { AccountData } from '../account-data/account-data';
+import { Address } from '../address/address';
+import {StudentYear} from './student-year'
+import {CourseAttending} from '../course/course-attending'
+
 export class Student {
-    firstName: string;
-    lastName: string;
-    picture: string;
-    jmbg: number;
-    email: string;
-    username: string;
-    password: string;
-    address: string;
-    studentYears: [];  //bice studentYears: studentYears[] kad se doda studentYears app i klasa
-    courseAttendings: []; // isto kao za studentYears
+
+    id: number;
+    accountData : AccountData;
+    address: Address;
+    studentYears: StudentYear[]; 
+    courseAttendings: CourseAttending [];
 
 }

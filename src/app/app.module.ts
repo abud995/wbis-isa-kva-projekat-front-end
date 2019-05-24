@@ -16,6 +16,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from './material';
 import { AddressComponent } from './address/address.component';
 import { TeacherComponent } from './teacher/teacher.component';
+import { YearOfStudyComponent } from './year-of-study/year-of-study.component';
+import { CourseComponent } from './course/course.component';
+import { ResultComponent } from './result/result.component';
+import { FacultyComponent } from './faculty/faculty.component';
+import { UniversityComponent } from './university/university.component';
+import { StudyProgramComponent } from './study-program/study-program.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -29,7 +36,14 @@ import { TeacherComponent } from './teacher/teacher.component';
     RegisterTeacherComponent,
     AccountDataComponent,
     AddressComponent,
-    TeacherComponent
+    TeacherComponent,
+    YearOfStudyComponent,
+    CourseComponent,
+    ResultComponent,
+    FacultyComponent,
+    UniversityComponent,
+    StudyProgramComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
